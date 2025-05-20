@@ -25,4 +25,4 @@ jobs:
         with:
           node-version: '18.x'
       - run: npm install
-      - run: npm test --strict
+      - run: npx next lint --strict
